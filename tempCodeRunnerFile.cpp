@@ -6,6 +6,7 @@ void insertionSort(T d[],int N){
 	for (int i = 1; i < N; ++i) {
         int current = d[i];
         int j = i - 1;
+
         while (j >= 0 && d[j] < current) {
             d[j + 1] = d[j];
             j--;
